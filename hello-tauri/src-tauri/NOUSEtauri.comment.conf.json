@@ -1,0 +1,25 @@
+{
+    "productName": "アプリケーションの表示名",
+    "version": "アプリケーションのバージョン",
+    "identifier": "一意のアプリケーション識別子（バンドルID）",
+  
+    "build.beforeDevCommand": "開発モード起動前に実行するコマンド",
+    "build.devUrl": "開発モードで読み込むURL",
+    "build.beforeBuildCommand": "リリースビルド前に実行するコマンド",
+    "build.frontendDist": "ビルド成果物のディレクトリ",
+  
+    "app.withGlobalTauri": "フロントエンドでグローバルtauriオブジェクトを有効にするか",
+    "app.windows[0].title": "ウィンドウのタイトル",
+    "app.windows[0].width": "ウィンドウ幅（ピクセル）",
+    "app.windows[0].height": "ウィンドウ高（ピクセル）",
+    "app.security.csp": "コンテンツセキュリティポリシー設定（nullは無効）",
+  
+    "bundle.active": "バンドル（インストーラ）を作成するか",
+    "bundle.targets": "ターゲットプラットフォーム（例: all, msi, debなど）",
+    "bundle.icon[0]": "アプリアイコン 32x32 PNG",
+    "bundle.icon[1]": "アプリアイコン 128x128 PNG",
+    "bundle.icon[2]": "アプリアイコン 128x128@2x PNG",
+    "bundle.icon[3]": "macOS用ICNS形式アイコン",
+    "bundle.icon[4]": "Windows用ICO形式アイコン"
+  }
+  

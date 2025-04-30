@@ -1,0 +1,27 @@
+{
+    "$schema": "TypeScriptコンパイラ設定ファイルのスキーマURL",
+  
+    "compilerOptions.target": "コンパイル後のJavaScriptの実行ターゲット（例: ES2020）",
+    "compilerOptions.jsx": "JSX構文をどの形式で変換するか（react-jsxなど）",
+    "compilerOptions.moduleResolution": "モジュール解決戦略（nodeかbundler）",
+    "compilerOptions.typeRoots": "型定義ファイル(.d.ts)を検索するディレクトリのリスト",
+    "compilerOptions.useDefineForClassFields": "クラスフィールドを標準の define プロパティとして出力するか",
+    "compilerOptions.module": "生成するモジュール形式（ESNextなど）",
+    "compilerOptions.lib": "含めるライブラリ型定義（DOM, ES2020など）",
+    "compilerOptions.skipLibCheck": "依存型定義ファイルのチェックをスキップしてビルド高速化",
+  
+    "compilerOptions.allowImportingTsExtensions": ".ts/.tsx拡張子付きのimportを許可するか",
+    "compilerOptions.resolveJsonModule": "JSONファイルをモジュールとしてimport可能にするか",
+    "compilerOptions.isolatedModules": "各ファイルを独立モジュールとしてトランスパイルさせる（Babel互換など）",
+    "compilerOptions.noEmit": "出力ファイルを生成せず型チェックのみ行う",
+    "compilerOptions.allowSyntheticDefaultImports": "CommonJSモジュールをデフォルトインポートできるようにする",
+    "compilerOptions.esModuleInterop": "import の互換性を強化し、default import を許可する",
+  
+    "compilerOptions.strict": "厳格な型チェックをまとめて有効化するオプション",
+    "compilerOptions.noUnusedLocals": "使われていないローカル変数をエラーにする",
+    "compilerOptions.noUnusedParameters": "使われていない関数パラメータをエラーにする",
+    "compilerOptions.noFallthroughCasesInSwitch": "switch のfall-throughを禁止し、検出する",
+  
+    "include": "コンパイル対象とするファイルやフォルダのパス配列"
+  }
+  
