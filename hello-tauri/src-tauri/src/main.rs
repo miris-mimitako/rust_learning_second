@@ -12,7 +12,9 @@ fn main() {
         // フロントエンドから呼び出せるコマンドを登録
         .invoke_handler(tauri::generate_handler![
             commands::load_passengers, // Titanic CSVを読み込むコマンド
-            commands::greet            // 名前で挨拶を返すコマンド
+            commands::greet,            // 名前で挨拶を返すコマンド
+            commands::average_age,    // 平均年齢を計算するコマンド
+            commands::compute_stats, // ここを追加 - 統計計算用
         ])
         // Tauriコンテキストを生成してアプリケーションを実行
         .run(tauri::generate_context!())
